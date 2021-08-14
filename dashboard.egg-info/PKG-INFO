@@ -9,7 +9,7 @@ License: BSD 2-clause
 Description: UNKNOWN
 Platform: UNKNOWN
 Classifier: Development Status :: 1 - Planning
-Classifier: Intended Audience :: Car/Automotive
+Classifier: Intended Audience :: Science/Research
 Classifier: License :: OSI Approved :: BSD License
 Classifier: Operating System :: POSIX :: Linux
 Classifier: Programming Language :: Python :: 2
