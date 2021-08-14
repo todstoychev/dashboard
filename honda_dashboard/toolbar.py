@@ -1,7 +1,7 @@
 import qtawesome as qta
 from PyQt5.QtWidgets import QToolButton, QToolBar, QAction
 
-from config import Config
+from honda_dashboard.config import Config
 
 
 class Toolbar(QToolBar):

@@ -4,7 +4,7 @@ from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QWidget, QLabel, QVBoxLayout
 from obd import OBDResponse
 
-from config import Config
+from honda_dashboard.config import Config
 
 
 class Limits:

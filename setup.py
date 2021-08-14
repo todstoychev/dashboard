@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='honda-dashboard',
-    version='0.1.2',
+    version='0.1.3',
     description='OBD2 Honda honda_dashboard.',
     url='https://github.com/todstoychev/dashboard',
     author='Todor Todorov',
@@ -31,5 +31,8 @@ setup(
         'console_scripts': [
             'honda-dashboard=honda_dashboard.__main__:main',
         ],
-    }
+    },
+    package_data={
+        '': ['config.ini', 'honda.png']
+    },
 )

@@ -1,4 +1,5 @@
 import configparser
+import os
 
 
 class Config:
@@ -12,7 +13,8 @@ class Config:
         self.__read()
 
     def __read(self):
-        self.__config.read('./config.ini')
+        path = os.path.dirname(os.path.abspath(__file__))
+        self.__config.read(path + '/config.ini')
         self.night_mode_on = self.__config['MODE']['night_mode_on'] != '0'
         self.night_colors = self.__config['NIGHT_COLORS']
         self.day_colors = self.__config['DAY_COLORS']

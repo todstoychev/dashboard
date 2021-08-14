@@ -4,13 +4,13 @@ import sys
 from threading import Thread
 
 import obd
-from PyQt5.QtCore import pyqtSlot, Qt
+from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QApplication
 
-from components import DashboardWindow, DashboardWidget, InitialScreen
-from config import Config
-from indicators import IndicatorBox, Limits
-from toolbar import Toolbar
+from honda_dashboard.components import DashboardWindow, DashboardWidget, InitialScreen
+from honda_dashboard.config import Config
+from honda_dashboard.indicators import IndicatorBox, Limits
+from honda_dashboard.toolbar import Toolbar
 
 
 class Dashboard:

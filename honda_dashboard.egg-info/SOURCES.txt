@@ -3,8 +3,10 @@ setup.py
 honda_dashboard/__init__.py
 honda_dashboard/__main__.py
 honda_dashboard/components.py
+honda_dashboard/config.ini
 honda_dashboard/config.py
 honda_dashboard/dashboard.py
+honda_dashboard/honda.png
 honda_dashboard/indicators.py
 honda_dashboard/toolbar.py
 honda_dashboard.egg-info/PKG-INFO

@@ -1,8 +1,10 @@
+import os
+
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QFont
 from PyQt5.QtWidgets import QMainWindow, QWidget, QGridLayout, QLabel, QVBoxLayout
 
-from config import Config
+from honda_dashboard.config import Config
 
 
 class DashboardWindow(QMainWindow):
@@ -44,7 +46,8 @@ class InitialScreen(QWidget):
         loading.setAlignment(Qt.AlignCenter)
         self.layout().addWidget(loading)
         self.setMinimumSize(480, 320)
-        self.setStyleSheet('background-image: url(honda.png); background-position: center; '
+        path = os.path.dirname(os.path.abspath(__file__))
+        self.setStyleSheet('background-image: url(' + path + '/honda.png); background-position: center; '
                            'background-repeat: no-repeat;')
         loading.setStyleSheet('color: #ed323e;')
 
