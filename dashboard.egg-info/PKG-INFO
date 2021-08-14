@@ -2,7 +2,7 @@ Metadata-Version: 1.1
 Name: dashboard
 Version: 0.1.0
 Summary: OBD2 Honda dashboard.
-Home-page: https://github.com/shuds13/pyexample
+Home-page: https://github.com/todstoychev/dashboard
 Author: Todor Todorov
 Author-email: todstoychev@gmail.com
 License: BSD 2-clause
