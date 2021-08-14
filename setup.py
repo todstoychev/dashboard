@@ -1,7 +1,7 @@
 from setuptools import setup
 
 setup(
-    name='honda-honda-dashboard',
+    name='honda-dashboard',
     version='0.1.0',
     description='OBD2 Honda honda-dashboard.',
     url='https://github.com/todstoychev/dashboard',
