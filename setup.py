@@ -1,14 +1,14 @@
 from setuptools import setup
 
 setup(
-    name='dashboard',
+    name='honda-honda-dashboard',
     version='0.1.0',
-    description='OBD2 Honda dashboard.',
+    description='OBD2 Honda honda-dashboard.',
     url='https://github.com/todstoychev/dashboard',
     author='Todor Todorov',
     author_email='todstoychev@gmail.com',
     license='BSD 2-clause',
-    packages=['dashboard'],
+    packages=['honda-dashboard'],
     install_requires=['qtawesome',
                       'pyqt5',
                       'obd'],
