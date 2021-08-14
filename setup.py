@@ -4,7 +4,7 @@ setup(
     name='dashboard',
     version='0.1.0',
     description='OBD2 Honda dashboard.',
-    url='https://github.com/shuds13/pyexample',
+    url='https://github.com/todstoychev/dashboard',
     author='Todor Todorov',
     author_email='todstoychev@gmail.com',
     license='BSD 2-clause',
