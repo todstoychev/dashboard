@@ -1,5 +1,4 @@
 import qtawesome as qta
-from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import QToolButton, QToolBar, QAction
 
 from config import Config

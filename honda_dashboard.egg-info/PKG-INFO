@@ -1,7 +1,7 @@
 Metadata-Version: 1.1
 Name: honda-dashboard
-Version: 0.1.0
-Summary: OBD2 Honda honda-dashboard.
+Version: 0.1.1
+Summary: OBD2 Honda honda_dashboard.
 Home-page: https://github.com/todstoychev/dashboard
 Author: Todor Todorov
 Author-email: todstoychev@gmail.com
