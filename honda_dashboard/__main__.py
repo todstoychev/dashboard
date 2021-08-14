@@ -1,6 +1,6 @@
 import sys
 
-from honda_dashboard.dashboard import Dashboard
+from dashboard import Dashboard
 
 
 def main(args=None):
